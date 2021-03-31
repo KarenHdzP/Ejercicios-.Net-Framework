@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Comprobante>
+        <DomicilioFiscal calle="AV. LAZARO CARDENAS" noExterior="123" colonia="CHAPULTEPEC NORTE" localidad="MORELIA" municipio="MORELIA" estado="MICHOACAN DE OCAMPO" pais="MEXICO" codigoPostal="58260"/>
+    <Conceptos>
+        <Concepto cantidad="15.00" unidad="PZA" noIdentificacion="fact" descripcion="facture" valorUnitario="20.00" importe="300.00"/>
+        <Concepto cantidad="10.00" unidad="PZA" noIdentificacion="fact" descripcion="facture" valorUnitario="20.00" importe="200.00"/>
+        <Concepto cantidad="5.00" unidad="PZA" noIdentificacion="fact" descripcion="FACTURE" valorUnitario="20.00" importe="100.00"/>
+        <Concepto cantidad="3.00" unidad="PZA" noIdentificacion="fact" descripcion="facture" valorUnitario="20.00" importe="60.00"/>
+        <Concepto cantidad="1.00" unidad="PZA" noIdentificacion="fact" descripcion="facture" valorUnitario="20.00" importe="20.00"/>
+        <Concepto cantidad="5.00" unidad="PZA" noIdentificacion="fact" descripcion="facture" valorUnitario="20.00" importe="100.00"/>
+    </Conceptos>
+    <Complemento>
+        <ImpuestosLocales version="1.0" TotaldeRetenciones="0.00" TotaldeTraslados="3.00">
+            <TrasladosLocales ImpLocTrasladado="ISH" TasadeTraslado="3.00" Importe="3.00"/>
+        </ImpuestosLocales>
+    </Complemento>
+</Comprobante>
