@@ -1,0 +1,32 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <img class="cabecera" src="BANNER-BIENVENIDO-BCT-1.jpg" />
+        <asp:Menu ID="Menu1" runat="server" CssClass="menu" StaticSubMenuIndent="10px">
+            <Items>
+                <asp:MenuItem Text="CUENTAS DEL CLIENTE" NavigateUrl="webConsultaCuenta.aspx" Value="CUENTAS DEL CLIENTE"></asp:MenuItem>
+                <asp:MenuItem Text="TRANSFERENCIAS" Value="TRANSFERENCIAS"></asp:MenuItem>
+                <asp:MenuItem Text="PAGOS" NavigateUrl="webPagoPrestamo.aspx" Value="PAGOS"></asp:MenuItem>
+                <asp:MenuItem Text="CONSULTAS" Value="CONSULTAS"></asp:MenuItem>
+                <asp:MenuItem Text="DESCONECTAR" Value="DESCONECTAR"></asp:MenuItem>
+            </Items>
+
+        </asp:Menu>
+        <div class="contenido">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

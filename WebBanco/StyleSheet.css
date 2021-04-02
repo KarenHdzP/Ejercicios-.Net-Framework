@@ -1,0 +1,58 @@
+﻿body {
+}
+
+.cabecera {
+    border-width: 10; /*anchura desde el borde*/
+    position: absolute; /*posición*/
+    top: 0px; /*posición de arriba*/
+    left: 326px; /*izquierda*/
+    width: 893px; /*anchura*/
+    height: 124px;
+    padding: 0 0 0 0;
+}
+.menu {
+    font-family: Tahoma;
+    font-size: medium;
+    border-width: 0;
+    position: absolute;
+    top: 184px;
+    left: 229px;
+    bottom: 583px;
+    right: 1011px;
+    width: 138px;
+    height: 90px;
+}
+.contenido {
+    margin-left: 350px; /*margen izquierdo*/
+    margin-right: 260px; /*margen derecho*/
+    margin-top: 180px; /*distancia desde arriba*/
+    padding-left: 130px;
+    padding-right: 13px;
+}
+.formatoBoton {
+    border-style: double;
+    border-color: inherit;
+    border-width: 0px;
+    font-size: 10px;
+    font-family: Verdana,Helvetica;
+    background: #638cb5;
+    position: static;
+    top: 346px;
+    left: 611px;
+    height: 37px;
+    width: 121px;
+}
+.formatoEtiqueta {
+    font-family: Tahoma;
+    font-size: xx-large;
+    color: Maroon;
+    margin-left: 10px; /*margen izquierdo*/
+}
+.formatoCajaTexto {
+    text-align: right;
+    font-family: Tahoma;
+    font-size: large;
+    color: Blue;
+    background-color: #FFDF9D;
+    margin-left: 40px; /*margen izquierdo*/
+}
