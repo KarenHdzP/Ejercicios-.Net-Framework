@@ -1,0 +1,11 @@
+﻿body {
+}
+.nuevoEstilo1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.nuevoEstilo2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: xx-large;
+    color: #FF0000;
+}
