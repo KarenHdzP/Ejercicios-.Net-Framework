@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Expedientes">
+  <DataContextMoniker Name="/ExpedientesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="86d2837e-acee-42dd-9f21-c3b4aed39778" absoluteBounds="3.375, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ExpedientesDataContext/tbExpediente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4324aa54-3a6a-4111-8c15-5aa5b5e47350" absoluteBounds="3.3899999999999997, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
