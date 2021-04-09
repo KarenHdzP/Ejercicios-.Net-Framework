@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbExpediente" Class="dbBancosDataContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\dbExpediente.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="dbExpedienteConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbClientes" Member="tbClientes">
+    <Type Name="tbClientes">
+      <Column Name="ClienteID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Apellidos" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Clave" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCuentas" Member="tbCuentas">
+    <Type Name="tbCuentas">
+      <Column Name="CuentaID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ClienteID" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Fecha_Apertura" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Fecha_Cierre" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Sueldo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
